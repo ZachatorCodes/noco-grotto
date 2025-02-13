@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename="noco-grotto">
+    <BrowserRouter basename="/noco-grotto">
       <App />
     </BrowserRouter>
   </StrictMode>
