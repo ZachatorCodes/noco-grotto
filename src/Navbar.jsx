@@ -28,16 +28,16 @@ function Navbar() {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
-              <Link to="/noco-grotto">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/noco-grotto/about">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/noco-grotto/membership">Membership</Link>
+              <Link to="/membership">Membership</Link>
             </li>
             <li>
-              <Link to="/noco-grotto/projects">Projects</Link>
+              <Link to="/projects">Projects</Link>
             </li>
             <li>
               <details>
