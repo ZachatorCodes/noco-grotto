@@ -57,7 +57,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <Link to="/" className="btn btn-ghost text-xl">
+        <Link to="/noco-grotto/" className="btn btn-ghost text-xl">
         <img className="h-8 mr-1" src={iconImage}/>
           NOCO Grotto
         </Link>
