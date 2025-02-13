@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import iconImage from "/favicon.ico"
 
 function Navbar() {
   return (
@@ -57,7 +58,7 @@ function Navbar() {
           </ul>
         </div>
         <Link to="/" className="btn btn-ghost text-xl">
-        <img className="h-8 mr-1" src="/favicon.ico"/>
+        <img className="h-8 mr-1" src={iconImage}/>
           NOCO Grotto
         </Link>
       </div>
