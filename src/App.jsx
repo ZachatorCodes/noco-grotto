@@ -3,6 +3,7 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 import About from "./About";
 import Membership from "./Membership";
+import Projects from "./Projects";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/membership" element={<Membership />} />
+        <Route exact path="/projects" element={<Projects />} />
         <Route path="/*" element={<Navigate replace to="/" />} />
       </Routes>
     </>
