@@ -14,7 +14,7 @@ function Home() {
         <div className="max-w-lg">
           <div className="flex justify-center items-center mb-5">
             <img src={logo} className="size-80 mr-5" />
-            <h1 className="mb-5 text-8xl font-bold text-le">
+            <h1 className="mb-5 text-8xl font-bold">
               Northern Colorado Grotto
             </h1>
           </div>
