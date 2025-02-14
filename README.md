@@ -1,8 +1,18 @@
-# React + Vite
+# Northern Colorado Grotto SPA Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository holds the frontend code for the Northern Colorado Grotto website. At the moment the website is static, but there are plans to build out a functioning backend.
 
-Currently, two official plugins are available:
+To visit the published website, please click [here](https://zachatorcodes.github.io/noco-grotto).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Northern Colorado Grotto is a registered chapter of the National Speleological Society (NSS). To learn more about the NSS, click [here](https://caves.org/) to visit the NSS website.
+
+## Technologies Used
+- [Vite](https://vite.dev/)
+- [React](https://react.dev/)
+- [React Router V7](https://reactrouter.com/)
+- [daisyUI](https://daisyui.com/)
+
+## Acknowledgments
+A huge thank you to [Rafael Pedicini](https://github.com/rafgraph) for his Github Pages SPA routing fix. The setup instructions and code for this fix can be found [here](https://github.com/rafgraph/spa-github-pages).
+
+Another thank you to the Western Slope Grotto for inspiration when building the website. To visit the Western Slope Grotto's website, click [here](https://www.westernslopegrotto.org/).
