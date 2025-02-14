@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import About from "./About";
 import Membership from "./Membership";
 import Projects from "./Projects";
+import FAQ from "./FAQ";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/membership" element={<Membership />} />
         <Route exact path="/projects" element={<Projects />} />
+        <Route exact path="/faq" element={<FAQ />} />
         <Route path="/*" element={<Navigate replace to="/" />} />
       </Routes>
     </>

@@ -56,7 +56,7 @@ function Navbar() {
               </details>
             </li>
             <li>
-              <a>FAQ</a>
+              <Link to="/faq">FAQ</Link>
             </li>
           </ul>
         </div>
@@ -96,7 +96,7 @@ function Navbar() {
             </details>
           </li>
           <li>
-            <a>FAQ</a>
+            <Link to="/faq">FAQ</Link>
           </li>
         </ul>
       </div>
