@@ -44,13 +44,13 @@ function Navbar() {
                 <summary>Gear</summary>
                 <ul className="bg-base-100 rounded-t-none p-2">
                   <li>
-                    <a>Basic</a>
+                    <Link to="/gear/basic">Basic</Link>
                   </li>
                   <li>
-                    <a>Vertical</a>
+                    <Link to="/gear/vertical">Vertical</Link>
                   </li>
                   <li>
-                    <a>Survey</a>
+                    <Link to="/gear/survey">Survey</Link>
                   </li>
                 </ul>
               </details>
@@ -84,13 +84,13 @@ function Navbar() {
               <summary>Gear</summary>
               <ul className="bg-base-100 rounded-t-none p-2">
                 <li>
-                  <a>Basic</a>
+                  <Link to="/gear/basic">Basic</Link>
                 </li>
                 <li>
-                  <a>Vertical</a>
+                  <Link to="/gear/vertical">Vertical</Link>
                 </li>
                 <li>
-                  <a>Survey</a>
+                  <Link to="/gear/survey">Survey</Link>
                 </li>
               </ul>
             </details>
