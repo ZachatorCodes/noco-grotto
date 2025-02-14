@@ -10,7 +10,7 @@ function Home() {
           "flex flex-col items-center bg-cover bg-center w-full h-auto p-5"
         }
       >
-        <img src={logo} className="size-45 lg:size-75" />
+        <img src={logo} className="size-45 lg:size-75 mb-1 lg:mb-3" />
         <div className="bg-accent rounded-box text-center p-3 lg:p-10">
           <h1 className="text-3xl lg:text-5xl text-accent-content font-bold">
             Northern Colorado Grotto
