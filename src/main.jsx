@@ -6,7 +6,7 @@ import { HashRouter as Router} from "react-router";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Router basename="noco-grotto">
+    <Router>
       <App />
     </Router>
   </StrictMode>
