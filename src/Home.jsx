@@ -7,7 +7,7 @@ function Home() {
       <div
         style={{ backgroundImage: `url(${cavebg})` }}
         className={
-          "flex flex-col items-center bg-cover bg-center w-full h-auto"
+          "flex flex-col items-center bg-cover bg-center w-full h-auto p-5"
         }
       >
         <img src={logo} className="size-80 p-10" />
