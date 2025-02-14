@@ -1,9 +1,24 @@
+import logo from "/logo512.png";
+
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="flex justify-center items-center">
+      <div
+        className={`flex flex-col justify-center items-center bg-[url(/cave-bg-1.jpg)] bg-cover bg-center w-full h-auto`}
+      >
+        <img src={logo} className="h-100 w-auto p-10" />
+        <div className="bg-accent p-10 mx-10 mb-10 rounded-box">
+          <h1 className="text-center text-5xl font-bold mb-3">
+            Northern Colorado Grotto
+          </h1>
+          <p className="text-xl text-center mt-3">
+            Promoting responsible access, exploration, research, and
+            conservation of caves in Colorado.
+          </p>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Home;
