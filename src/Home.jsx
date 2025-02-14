@@ -1,10 +1,14 @@
-import logo from "/logo512.png";
+import logo from "./assets/logo512.png";
+import cavebg from "./assets/cave-bg-1.jpg";
 
 function Home() {
   return (
     <div className="flex justify-center items-center">
       <div
-        className={`flex flex-col justify-center items-center bg-[url(/cave-bg-1.jpg)] bg-cover bg-center w-full h-auto`}
+        style={{ backgroundImage: `url(${cavebg})` }}
+        className={
+          "flex flex-col justify-center items-center bg-cover bg-center w-full h-auto"
+        }
       >
         <img src={logo} className="h-100 w-auto p-10" />
         <div className="bg-accent p-10 mx-10 mb-10 rounded-box">
