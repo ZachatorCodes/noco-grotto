@@ -1,5 +1,5 @@
-import cavebg from "./assets/cave-bg-1.jpg";
-// import logo from "./assets/logo512.png";
+import cavebg from "/cave-bg-1.jpg";
+// import logo from "/logo512.png";
 
 function About() {
   return (

@@ -1,6 +1,6 @@
 import { Link } from "react-router";
-import cavebg from "./assets/cave-bg-2.jpg";
-import logo from "./assets/logo512.png";
+import cavebg from "/cave-bg-2.jpg";
+import logo from "/logo512.png";
 
 function Home() {
   return (
