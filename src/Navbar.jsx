@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import iconImage from "/favicon.ico"
+import iconImage from "/favicon.ico";
 
 function Navbar() {
   return (
@@ -55,10 +55,13 @@ function Navbar() {
                 </ul>
               </details>
             </li>
+            <li>
+              <a>FAQ</a>
+            </li>
           </ul>
         </div>
         <Link to="/" className="btn btn-ghost text-xl">
-        <img className="h-8 mr-1" src={iconImage}/>
+          <img className="h-8 mr-1" src={iconImage} />
           NOCO Grotto
         </Link>
       </div>
@@ -78,7 +81,7 @@ function Navbar() {
           </li>
           <li>
             <details>
-              <summary>Cave Gear</summary>
+              <summary>Gear</summary>
               <ul className="bg-base-100 rounded-t-none p-2">
                 <li>
                   <a>Basic</a>
@@ -91,6 +94,9 @@ function Navbar() {
                 </li>
               </ul>
             </details>
+          </li>
+          <li>
+            <a>FAQ</a>
           </li>
         </ul>
       </div>
