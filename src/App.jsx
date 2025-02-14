@@ -8,6 +8,7 @@ import FAQ from "./FAQ";
 import BasicGear from "./BasicGear";
 import VerticalGear from "./VerticalGear";
 import SurveyGear from "./SurveyGear";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route exact path="/gear/survey" element={<SurveyGear />}/>
         <Route path="/*" element={<Navigate replace to="/" />} />
       </Routes>
+      <Footer />
     </>
   );
 }
