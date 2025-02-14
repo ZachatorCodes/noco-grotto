@@ -5,6 +5,9 @@ import About from "./About";
 import Membership from "./Membership";
 import Projects from "./Projects";
 import FAQ from "./FAQ";
+import BasicGear from "./BasicGear";
+import VerticalGear from "./VerticalGear";
+import SurveyGear from "./SurveyGear";
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
         <Route exact path="/membership" element={<Membership />} />
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/faq" element={<FAQ />} />
+        <Route exact path="/gear/basic" element={<BasicGear />}/>
+        <Route exact path="/gear/vertical" element={<VerticalGear />}/>
+        <Route exact path="/gear/survey" element={<SurveyGear />}/>
         <Route path="/*" element={<Navigate replace to="/" />} />
       </Routes>
     </>
