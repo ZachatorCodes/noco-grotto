@@ -3,7 +3,7 @@ import cavebg from "./assets/cave-bg-1.jpg";
 
 function Home() {
   return (
-    <div className="flex justify-center items-center">
+    <>
       <div
         style={{ backgroundImage: `url(${cavebg})` }}
         className={
@@ -21,7 +21,7 @@ function Home() {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
