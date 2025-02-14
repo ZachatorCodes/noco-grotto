@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import cavebg from "./assets/cave-bg-2.jpg";
 import logo from "./assets/logo512.png";
 
@@ -22,7 +23,7 @@ function Home() {
             Promoting responsible access, exploration, research, and
             conservation of caves in Colorado.
           </p>
-          <button className="btn btn-secondary">Learn More</button>
+          <Link to="/about"><button className="btn btn-secondary">Learn More</button></Link>
         </div>
       </div>
     </div>
