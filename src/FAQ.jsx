@@ -18,32 +18,37 @@ function FAQ() {
       <div className="px-100 py-10 space-y-2">
         <div className="collapse collapse-arrow bg-neutral border border-base-300">
           <input type="radio" name="my-accordion-2" defaultChecked />
-          <div className="collapse-title font-semibold">
-            How do I create an account?
-          </div>
+          <div className="collapse-title font-semibold">What is a grotto?</div>
           <div className="collapse-content text-sm">
-            Click the "Sign Up" button in the top right corner and follow the
-            registration process.
+            A caving grotto is a local community of cavers that plan cave trips
+            and work on caving projects together. At Northern Colorado Grotto,
+            we focus on recreational and project caving, cave surveying,
+            conservation, and advocacy. Our grotto provides a platform for
+            members to explore caves, share knowledge, and contribute to cave
+            preservation.
           </div>
         </div>
         <div className="collapse collapse-arrow bg-neutral border border-base-300">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
-            I forgot my password. What should I do?
+            Do I need any caving experience to join?
           </div>
           <div className="collapse-content text-sm">
-            Click on "Forgot Password" on the login page and follow the
-            instructions sent to your email.
+            No prior experience is necessary. We cater to all levels, from
+            beginners to experienced cavers, and provide training and support to
+            new members.
           </div>
         </div>
         <div className="collapse collapse-arrow bg-neutral border border-base-300">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
-            How do I update my profile information?
+            How does the grotto promote cave conservation?
           </div>
           <div className="collapse-content text-sm">
-            Go to "My Account" settings and select "Edit Profile" to make
-            changes.
+            We are committed to preserving caves. Our efforts include educating
+            members and the public on responsible caving practices,
+            participating in cleanup projects, providing funding for
+            conservation efforts, and advocating for cave protection.
           </div>
         </div>
       </div>
