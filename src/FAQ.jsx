@@ -16,7 +16,7 @@ function FAQ() {
         </div>
       </div>
       <div className="px-100 py-10 space-y-2">
-        <div className="collapse collapse-arrow bg-base-100 border border-base-300">
+        <div className="collapse collapse-arrow bg-neutral border border-base-300">
           <input type="radio" name="my-accordion-2" defaultChecked />
           <div className="collapse-title font-semibold">
             How do I create an account?
@@ -26,7 +26,7 @@ function FAQ() {
             registration process.
           </div>
         </div>
-        <div className="collapse collapse-arrow bg-base-100 border border-base-300">
+        <div className="collapse collapse-arrow bg-neutral border border-base-300">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
             I forgot my password. What should I do?
@@ -36,7 +36,7 @@ function FAQ() {
             instructions sent to your email.
           </div>
         </div>
-        <div className="collapse collapse-arrow bg-base-100 border border-base-300">
+        <div className="collapse collapse-arrow bg-neutral border border-base-300">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
             How do I update my profile information?
