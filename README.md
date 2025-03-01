@@ -10,6 +10,7 @@ The Northern Colorado Grotto is a registered chapter of the National Speleologic
 - [Vite](https://vite.dev/)
 - [React](https://react.dev/)
 - [React Router V7](https://reactrouter.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 - [daisyUI](https://daisyui.com/)
 
 ## Acknowledgments
