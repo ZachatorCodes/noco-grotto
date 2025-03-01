@@ -1,4 +1,5 @@
-import cavebg from "/cave-bg-1.jpg";
+import cavebg from "/cave-bg-3.jpg";
+
 function FAQ() {
   return (
     <>
