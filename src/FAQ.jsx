@@ -15,7 +15,7 @@ function FAQ() {
           </h1>
         </div>
       </div>
-      <div className="px-100 py-10 space-y-2">
+      <div className="px-5 md:px-20 lg:px-30 py-5 space-y-2">
         <div className="collapse collapse-arrow bg-neutral border border-base-300">
           <input type="radio" name="my-accordion-2" defaultChecked />
           <div className="collapse-title font-semibold">What is a grotto?</div>
